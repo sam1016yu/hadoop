@@ -458,6 +458,7 @@ public class LightWeightHashSet<T> implements Collection<T> {
    */
   @SuppressWarnings("unchecked")
   private void resize(int cap) {
+    LOG.warn("COVERAGE CHECK|hd16639|resize");
     int newCapacity = computeCapacity(cap);
     if (newCapacity == this.capacity) {
       return;
