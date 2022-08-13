@@ -390,6 +390,8 @@ public class DirectoryScanner implements Runnable {
    * Scan only the "finalized blocks" lists of both disk and memory.
    */
   private void scan() {
+    // LOG.warn("COVERAGE CHECK|ca14660|cachedOnlyTokenMap");
+    LOG.warn("COVERAGE CHECK|hd15415|scan");
     clear();
     Map<String, ScanInfo[]> diskReport = getDiskReport();
 
