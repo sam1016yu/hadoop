@@ -63,7 +63,7 @@ Installing required packages for clean install of Ubuntu 14.04 LTS Desktop:
 * Maven
   $ sudo apt-get -y install maven
 * Native libraries
-  $ sudo apt-get -y install build-essential autoconf automake libtool cmake zlib1g-dev pkg-config libssl-dev
+  $ sudo apt-get -y install build-essential autoconf automake libtool cmake zlib1g-dev pkg-config libssl-dev protobuf-compiler
 * ProtocolBuffer 2.5.0 (required)
   $ sudo apt-get -y install protobuf-compiler
 

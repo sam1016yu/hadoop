@@ -1143,6 +1143,8 @@ public class BlockManager implements BlockStatsMXBean {
    * Check if a block is replicated to at least the minimum replication.
    */
   public boolean isSufficientlyReplicated(BlockInfo b) {
+
+    LOG.warn("COVERAGE CHECK|hd14366|isSufficientlyReplicated");
     // Compare against the lesser of the minReplication and number of live DNs.
     final int replication =
         Math.min(minReplication, getDatanodeManager().getNumLiveDataNodes());
