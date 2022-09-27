@@ -397,7 +397,8 @@ public class NativeAzureFileSystem extends FileSystem {
     public void execute() throws IOException {
 
       for (FileMetadata file : this.getFiles()) {
-
+        LOG.warn("CoverageCheck|ha13403");
+        
         // Rename all materialized entries under the folder to point to the
         // final destination.
         if (file.getBlobMaterialization() == BlobMaterialization.Explicit) {

@@ -1,0 +1,140 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.apache.hadoop:hadoop-azure[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Hadoop Azure support 2.7.2[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mhadoop-azure[0;1m ---[m
+[[1;34mINFO[m] Deleting /users/miaoyu/hadoop/hadoop-tools/hadoop-azure/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.7:run[m [1m(create-testdirs)[m @ [36mhadoop-azure[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /users/miaoyu/hadoop/hadoop-tools/hadoop-azure/target/test-dir
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mhadoop-azure[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mhadoop-azure[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 29 source files to /users/miaoyu/hadoop/hadoop-tools/hadoop-azure/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mhadoop-azure[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mhadoop-azure[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 32 source files to /users/miaoyu/hadoop/hadoop-tools/hadoop-azure/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.17:test[m [1m(default-test)[m @ [36mhadoop-azure[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /users/miaoyu/hadoop/hadoop-tools/hadoop-azure/target/surefire-reports
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.17/surefire-junit4-2.17.pom
+Progress (1): 1.4/2.5 kBProgress (1): 2.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.17/surefire-junit4-2.17.pom (2.5 kB at 5.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.17/surefire-providers-2.17.pom
+Progress (1): 1.4/2.4 kBProgress (1): 2.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.17/surefire-providers-2.17.pom (2.4 kB at 108 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.17/surefire-junit4-2.17.jar
+Progress (1): 1.4/64 kBProgress (1): 2.7/64 kBProgress (1): 4.1/64 kBProgress (1): 5.5/64 kBProgress (1): 6.9/64 kBProgress (1): 8.2/64 kBProgress (1): 9.6/64 kBProgress (1): 11/64 kB Progress (1): 12/64 kBProgress (1): 14/64 kBProgress (1): 15/64 kBProgress (1): 16/64 kBProgress (1): 20/64 kBProgress (1): 24/64 kBProgress (1): 28/64 kBProgress (1): 32/64 kBProgress (1): 36/64 kBProgress (1): 40/64 kBProgress (1): 45/64 kBProgress (1): 49/64 kBProgress (1): 53/64 kBProgress (1): 57/64 kBProgress (1): 61/64 kBProgress (1): 64 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.17/surefire-junit4-2.17.jar (64 kB at 946 kB/s)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestNativeAzureFileSystemLive
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 42, Time elapsed: 0.508 sec - in org.apache.hadoop.fs.azure.TestNativeAzureFileSystemLive
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestNativeAzureFileSystemOperationsMocked
+Tests run: 49, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.155 sec - in org.apache.hadoop.fs.azure.TestNativeAzureFileSystemOperationsMocked
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestBlobDataValidation
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.342 sec - in org.apache.hadoop.fs.azure.TestBlobDataValidation
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestShellDecryptionKeyProvider
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.16 sec - in org.apache.hadoop.fs.azure.TestShellDecryptionKeyProvider
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestAzureFileSystemErrorConditions
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.768 sec - in org.apache.hadoop.fs.azure.TestAzureFileSystemErrorConditions
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestBlobTypeSpeedDifference
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.282 sec - in org.apache.hadoop.fs.azure.TestBlobTypeSpeedDifference
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestBlobMetadata
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.702 sec - in org.apache.hadoop.fs.azure.TestBlobMetadata
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestNativeAzureFileSystemContractMocked
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.929 sec - in org.apache.hadoop.fs.azure.TestNativeAzureFileSystemContractMocked
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestNativeAzureFSPageBlobLive
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 40, Time elapsed: 0.645 sec - in org.apache.hadoop.fs.azure.TestNativeAzureFSPageBlobLive
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestReadAndSeekPageBlobAfterWrite
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 0.359 sec - in org.apache.hadoop.fs.azure.TestReadAndSeekPageBlobAfterWrite
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestNativeAzureFileSystemContractEmulator
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.474 sec - in org.apache.hadoop.fs.azure.TestNativeAzureFileSystemContractEmulator
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestWasbUriAndConfiguration
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 0.849 sec - in org.apache.hadoop.fs.azure.TestWasbUriAndConfiguration
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestAzureConcurrentOutOfBandIo
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.31 sec - in org.apache.hadoop.fs.azure.TestAzureConcurrentOutOfBandIo
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestNativeAzureFileSystemUploadLogic
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.05 sec - in org.apache.hadoop.fs.azure.TestNativeAzureFileSystemUploadLogic
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.metrics.TestBandwidthGaugeUpdater
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.364 sec - in org.apache.hadoop.fs.azure.metrics.TestBandwidthGaugeUpdater
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.metrics.TestNativeAzureFileSystemMetricsSystem
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.672 sec - in org.apache.hadoop.fs.azure.metrics.TestNativeAzureFileSystemMetricsSystem
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.metrics.TestAzureFileSystemInstrumentation
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.354 sec - in org.apache.hadoop.fs.azure.metrics.TestAzureFileSystemInstrumentation
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.metrics.TestRollingWindowAverage
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.208 sec - in org.apache.hadoop.fs.azure.metrics.TestRollingWindowAverage
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestOutOfBandAzureBlobOperations
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.729 sec - in org.apache.hadoop.fs.azure.TestOutOfBandAzureBlobOperations
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestNativeAzureFileSystemBlockLocations
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.712 sec - in org.apache.hadoop.fs.azure.TestNativeAzureFileSystemBlockLocations
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestNativeAzureFileSystemMocked
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.829 sec - in org.apache.hadoop.fs.azure.TestNativeAzureFileSystemMocked
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestContainerChecks
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.357 sec - in org.apache.hadoop.fs.azure.TestContainerChecks
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestOutOfBandAzureBlobOperationsLive
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 0.361 sec - in org.apache.hadoop.fs.azure.TestOutOfBandAzureBlobOperationsLive
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestNativeAzureFileSystemContractLive
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.5 sec - in org.apache.hadoop.fs.azure.TestNativeAzureFileSystemContractLive
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestWasbFsck
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.633 sec - in org.apache.hadoop.fs.azure.TestWasbFsck
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestNativeAzureFileSystemFileNameCheck
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.701 sec - in org.apache.hadoop.fs.azure.TestNativeAzureFileSystemFileNameCheck
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=768m; support was removed in 8.0
+Running org.apache.hadoop.fs.azure.TestNativeAzureFileSystemConcurrency
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.074 sec - in org.apache.hadoop.fs.azure.TestNativeAzureFileSystemConcurrency
+
+Results :
+
+Tests run: 365, Failures: 0, Errors: 0, Skipped: 127
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  41.678 s
+[[1;34mINFO[m] Finished at: 2022-09-25T15:11:18-06:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
